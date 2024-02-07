@@ -1,0 +1,70 @@
+/* TaskList.css */
+
+/* Container-Styling für die gesamte Komponente */
+.taskListContainer {
+    background-color: #dce6f9;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Styling für den Eingabe-Textbereich */
+  .taskInput {
+    width: 50%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Styling für den Hinzufügen-Button */
+  .addTaskButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Styling für die Aufgabenliste */
+  .taskList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Styling für jede einzelne Aufgabe in der Liste */
+  .taskItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Styling für das Kontrollkästchen */
+  .taskCheckbox {
+    margin-right: 10px;
+  }
+  
+  /* Styling für den Text der Aufgabe */
+  .taskText {
+    flex-grow: 1;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  /* Styling für den Löschen-Button */
+  .deleteButton {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

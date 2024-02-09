@@ -1,0 +1,56 @@
+/* Tic-Tac-Toe Board */
+
+.ttt-container{
+    background-color: #dcf9e5;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 1vmin);
+    color: rgb(0, 0, 0);
+}
+
+
+.board-row {
+    display: flex;
+  }
+  
+  .square {
+    background: #fff;
+    border: 1px solid #999;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 50px; /* Adjusted for vertically centered text */
+    height: 50px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 50px;
+  }
+  
+  .square:hover {
+    background: #f2f2f2;
+    cursor: pointer;
+  }
+  
+  /* Reset Button */
+  .reset-btn {
+    margin-top: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .reset-btn:hover {
+    background-color: #45a049;
+  }
+  
